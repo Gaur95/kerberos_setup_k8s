@@ -14,4 +14,6 @@ This document provides a step-by-step guide to setting up a Kubernetes deploymen
 ### 1.2 Create a MongoDB Service
 ## Step 2: Create ConfigMap for MongoDB
 ## Step 3: Setup the Kerberos Application Deployment
+### 3.1 Create the Deployment
+### 3.2 Create the NodePort Service for the Application
 ## Step 4: Verify the Setup
