@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: mongo-client
+spec:
+  containers:
+  - name: mongo-client
+    image: mongo:latest
+    command: ["sleep"]
+    args: ["3600"]
