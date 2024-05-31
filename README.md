@@ -30,5 +30,5 @@ This document provides a step-by-step guide to setting up a Kubernetes deploymen
 ```
 http://192.168.49.2:30090
 ```
-<img scr=login.png>
+<img src=login.png>
 <img src=test.png>
