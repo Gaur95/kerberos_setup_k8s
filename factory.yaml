@@ -46,9 +46,7 @@ spec:
         - name: FACTORY_ENVIRONMENT
           value: "kubernetes"
         - name: K8S_PROXY
-          value: http://192.168.49.2:80
-        - name: MONGO_URL
-          value: mongodb://root:q123@192.168.49.2:31420
+          value: http://localhost:80
         volumeMounts:
         - name: nfs-volume
           mountPath: /mnt/nfs
